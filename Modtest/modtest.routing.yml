@@ -1,0 +1,7 @@
+TestForm_settings:
+  path: 'admin/settings/testform'
+  defaults:
+    _form: 'Drupal\modtest\Form\TestForm'
+    _title: 'The page tittle TestForm'
+  requirements:
+    _permission: 'administer site configuration'
